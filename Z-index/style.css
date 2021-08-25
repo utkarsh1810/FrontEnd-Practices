@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div.box {
+  position: relative;
+  width: 450px;
+  height: 550px;
+  left: 150px;
+  top: 100px;
+
+}
+div.img {
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  z-index: 1;
+}
+div.img img {
+  width: 100%;
+}
+div.content {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  z-index: 2;
+  top: 80%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  
+}
