@@ -1,0 +1,83 @@
+*{
+  background-color: green;
+}
+
+.parent {
+  position: relative;
+  height: 200vh;
+}
+
+.child-one {
+  position: relative;
+  left: 10px;
+
+}
+
+.child-two {
+  position: absolute;
+  left: 50vw;
+  top: 0;
+
+}
+
+.child-three {
+  position: fixed;
+  top: 0;
+  left: 60vw;
+  z-index: 200;
+
+}
+
+.child-four {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
+}
+.sibling {
+  text-align: center;
+  background-color: orange;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+  padding: 5px;
+  background-color: lightblue;
+}
+
+.child {
+  padding: 5px;
+}
+
+.child-one {
+  background-color: red;
+}
+
+.child-two {
+  background-color: white;
+}
+
+.child-three {
+  background-color: grey;
+}
+.child-four {
+  background-color: yellow;
+}
